@@ -36,7 +36,7 @@ resource "azurerm_storage_account" "main_storage" {
   }
 }
 resource "azurerm_storage_data_lake_gen2_filesystem" "datalakestorage" {
-  name               = "datalake_test"
+  name               = "datalakelwarlk"
   storage_account_id = azurerm_storage_account.main_storage.id
   depends_on         = [azurerm_storage_account.main_storage]
 }

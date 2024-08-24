@@ -12,7 +12,7 @@ import (
 func TestTerraform_AzureDatalakeTest(t *testing.T) {
 
 	t.Parallel()
-	ARM_SUBSCRIPTION_ID := "d5e57fba-13c2-4480-bac9-d7b45f808af5"
+	ARM_SUBSCRIPTION_ID := "xxxxxxxxxxxxxxxxxxxxxx"
 
 	uniquePostfix := random.UniqueId()
 
